@@ -177,9 +177,10 @@
                 async:false, 
                 type:'post',
                 success:(res)=>{
-                    console.log(res.data)
                 if(res.success) _this.menu = res.data
-                    _this.loading()
+                    setTimeout(() => {
+                        _this.loading()
+                    }, 400);
                 }
             })    
         },
