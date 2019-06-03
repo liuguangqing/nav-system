@@ -89,12 +89,12 @@
                         </a>
                     </li>
                     <li class="dropdown hover-line language-switcher">
-                        <a href="../cn/index.html" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
                         </a>
                         <ul class="dropdown-menu languages">
                             <li class="active">
-                                <a href="../cn/index.html">
+                                <a href="index.html">
                                     <img src="../assets/images/flags/flag-cn.png" alt="flag-cn" /> Chinese
                                 </a>
                             </li>
@@ -116,9 +116,9 @@
                                     </a>
                                     <div class="xe-comment">
                                         <a href="#" class="xe-user-name overflowClip_1">
-                                            <strong>{{ite2.title}}</strong>
+                                            <strong v-text='ite2.title'></strong>
                                         </a>
-                                        <p class="overflowClip_2">{{ite2.content}}</p>
+                                        <p class="overflowClip_2" v-text='ite2.content'></p>
                                     </div>
                                 </div>
                             </div>
@@ -136,9 +136,9 @@
                                     </a>
                                     <div class="xe-comment">
                                         <a href="#" class="xe-user-name overflowClip_1">
-                                            <strong>{{ite3.title}}</strong>
+                                            <strong v-text='ite3.title'></strong>
                                         </a>
-                                        <p class="overflowClip_2">{{ite3.content}}</p>
+                                        <p class="overflowClip_2" v-text='ite3.content'></p>
                                     </div>
                                 </div>
                             </div>
